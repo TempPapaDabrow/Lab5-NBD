@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/ft40lCuACCUy5rEyXL1hcIcvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s26400>; rel="up"
+Last-Modified: Wed, 29 Jun 2022 14:08:21 GMT
+ETag: "2kqXWSVxmW4ARG9bZAHaNb"
+Date: Wed, 29 Jun 2022 14:13:26 GMT
+Content-Type: application/json
+Content-Length: 70
+
+{"name": "Bmw"     , "model": "M6"     , "volume": 4400, "power": 560}

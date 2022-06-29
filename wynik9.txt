@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/ft40lHODCCUy5rEytNwzuMOXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s26400>; rel="up"
+Last-Modified: Wed, 29 Jun 2022 14:32:36 GMT
+ETag: "1TDAeXIbJLDICbOaiKhwLl"
+Date: Wed, 29 Jun 2022 14:34:45 GMT
+Content-Type: application/json
+Content-Length: 14
+
+{"name": Opel}

@@ -1,0 +1,34 @@
+1.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Bmw"     , "model": "M6"     , "volume": 4400, "power": 560}' http://localhost:8098/buckets/s26400/keys/Bmw
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Mercedes", "model": "Cls53"  , "volume": 3000, "power": 400}' http://localhost:8098/buckets/s26400/keys/Mercedes
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Audi"    , "model": "RS7"    , "volume": 4000, "power": 600}' http://localhost:8098/buckets/s26400/keys/Audi
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Jaguar"  , "model": "XJ"     , "volume": 5000, "power": 550}' http://localhost:8098/buckets/s26400/keys/Jaguar
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Kia"     , "model": "Stinger", "volume": 3330, "power": 366}' http://localhost:8098/buckets/s26400/keys/Kia
+
+2.
+curl -i -XGET  http://localhost:8098/buckets/s26400/keys/Bmw
+
+3.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Kia"     , "model": "Stinger", "volume": 3330, "power": 366, "nationality" : "Korea"}' http://localhost:8098/buckets/s26400/keys/Kia
+
+4.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Jaguar"  , "model": "XJ"     , "volume": 5000}' http://localhost:8098/buckets/s26400/keys/Jaguar
+
+5.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Audi"    , "model": "RS7"    , "volume": 4000, "power": 800}' http://localhost:8098/buckets/s26400/keys/Audi
+
+6.
+curl -i -XDELETE http://localhost:8098/buckets/s26400/keys/Mercedes
+
+7.
+curl -i -XGET  http://localhost:8098/buckets/s26400/keys/nonExisting
+
+8.
+curl -i -XPOST -H "Content-Type: application/json" -d '{"name": Opel}' http://localhost:8098/buckets/s26400/keys
+
+9.
+curl -i -XGET  http://localhost:8098/buckets/s26400/keys/3vFF1g3k4oa9xJgUVtROxA4NHaI
+
+10.
+curl -i -XDELETE http://localhost:8098/buckets/s26400/keys/3vFF1g3k4oa9xJgUVtROxA4NHaI
+
